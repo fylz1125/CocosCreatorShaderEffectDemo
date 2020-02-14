@@ -1,14 +1,19 @@
 # Cocos Creator Shader Effect Demo
 
-[![](https://img.shields.io/badge/Release-0.6.0-green.svg)](CHANGELOG.md)
+[![](https://img.shields.io/badge/Release-0.8.0-green.svg)](CHANGELOG.md)
 [![](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![](https://img.shields.io/badge/Support-Cocos%20Creator%20v2.2.1-orange.svg)](http://www.cocos.com/creator)
+[![](https://img.shields.io/badge/Support-Cocos%20Creator%20v2.2.2-orange.svg)](http://www.cocos.com/creator)
+
 
 ## 一、项目说明
 
 1. 此项目为我在学习过程中的一些分享和实现，因此项目名字以 **`Demo`** 为后缀。
 2. 项目重点在于 **「渔」**，不在于 **「鱼」** 。
 3. 如果你有意将此Demo中的效果加入到你的项目中，**请认真评估是否适合你的项目使用！**
+4. 本项目支持 Cocos Creator `v2.2.1` 、 `v2.2.2`
+   1. 项目当前正在使用 v2.2.2 开发
+   2. 如果采用 Cocos Creator v2.2.1打开，在打开的时候，Cocos Creator 会提示有降级打开项目的提醒，忽略直接打开即可
 
 ## 二、系列文章
 
@@ -20,6 +25,7 @@
 * [Cocos Creator Shader Effect 系列 - 5 - 马赛克/像素化特效](https://www.jianshu.com/p/40e72ab76afd)
 * [Cocos Creator Shader Effect 系列 - 6 - 内发光特效](https://www.jianshu.com/p/326b73f86ecc)
 * [Cocos Creator Shader Effect 系列 - 7 - 点光/扫光特效](https://www.jianshu.com/p/8ff03b34b0bd)
+* [Cocos Creator Shader Effect 系列 - 8 - 高斯模糊](https://www.jianshu.com/p/9e42cbb1d4a8)
 
 
 * 编写中...
@@ -69,12 +75,15 @@
 
 ### 圆角裁剪-v2（2020.01.17更新）
 
-在 **圆角裁剪-v1** 的原理基础上，新增支持任意纹理的圆角裁剪
+在 **圆角裁剪-v1** 的原理基础上，新增支持任意宽高纹理的圆角裁剪
 
 如：下面Gif中第3到5秒演示所示，黄色和红色的非正方形纹理也能裁剪出圆角效果
 
 ![](static/effects/2d-sprite-round-corner-crop-v2.gif)
 
+### 高斯模糊-V1（[实现原理](https://www.jianshu.com/p/9e42cbb1d4a8)）2020.02.07更新）
+
+![](static/effects/2d-sprite-gaussian-blur-v1.png)
 
 ### 外发光（完善中...）
 
